@@ -1,5 +1,5 @@
 #if you use different environments
-#sudo pip install
+#sudo pip install --target=/usr/local/lib/python3.x/ scapy
 
 from scapy.all import *
 from collections import defaultdict
